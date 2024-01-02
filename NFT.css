@@ -1,0 +1,124 @@
+body{
+    background: hsl(217, 54%, 11%);
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 70px;
+    font-family: 'Outfit', sans-serif;
+    flex-wrap:wrap;
+    
+}
+
+.Box {
+    background-color: hsl(216, 50%, 16%);
+    padding: 35px;
+    padding-top:80px;
+    height: 450px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.Box img {
+    width: 270px;
+    height: 255px; 
+    margin-top:-280px;
+    border-radius: 15px;
+    transform: translatey(30px);
+}
+
+.Content{
+    width:200px;
+    height:100px;
+    font-size: 15px;
+    
+}
+
+.Content h1{
+    width:200%;
+    color:white;
+    font-size: 18px;
+    transform: translate(1px, 35px);
+    font-weight: 600;
+}
+
+.Content p{
+    width:145%;
+    transform: translate(-1px,40px);
+    font-size: 18px;
+    color:hsl(215, 51%, 70%);
+}
+
+.Flex-1 img{
+    height:20px;
+    width:10px;
+    transform: translate(-7px, 70px);
+    
+}
+
+.Flex-1 h2{
+    transform: translate(10px, 30px);
+    font-size: 18px;
+    color:hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.Flex-2 img{
+      transform: translate(175px, -1px);
+      height:20px;
+      width:20px;
+}
+
+.Flex-2 h3{
+    transform: translate(205px, -43px);
+    font-size: 18px;
+    color:hsl(215, 51%, 70%);
+    font-weight:300;
+}
+
+.Profile img{
+    width:30px;
+    height:30px;
+    transform: translate(-8px);
+    border:solid 1px;
+    color:white;
+}
+
+.Profile h4{
+    transform: translate(35px, -47px);
+    color:hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.Profile span{
+    transform: translate(114px, -87px);
+    display: flex;
+    color: hsl(0, 0%, 100%);
+}
+
+.Profile span:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.Content h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+@media screen (max-width:768px;) {
+
+    .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:70x;
+    font-family: 'Outfit', sans-serif;
+    transform: translatey(100px);
+}
+}
+    
+
+
